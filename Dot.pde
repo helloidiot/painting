@@ -57,7 +57,7 @@ class Dot {
 
   void render() {
     fill(c);
-    ellipse(pos.x, pos.y, size, size);
+    rect(pos.x, pos.y, size, size);
   }
 
   void draw() {
